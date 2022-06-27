@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Secangkir Kode</title>
+
+  </head>
+  <body>
+    <header class="header_area">
+      <div class="main_menu">       
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">           
+            <a class="navbar-brand logo_h" href="index.html">
+              <img width="50" height="50" src="images/sk-logo.png" alt="Secangkir Kode"/>
+              Secangkir Kode</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                </button>
+           
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">               
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item submenu dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                    role="button" aria-haspopup="true" aria-expanded="false">Belajar</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="kelas.html">Kelas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="lab.html">Lab</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.djangoproject.com/" target="blank">Documentation</a>
+                    </li>
+                  </ul>
+                </li>               
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Log In</a>
+                </li>  
+                <li class="nav-item"> <!--Switch Dark Light -->
+                  <input onclick="myFunction()" type="checkbox" id="cbx" style="display:none" />
+                  <label for="cbx" class="toggle" data-mdb-toggle="tooltip" title="Switch Dark/Light Mode">
+                  <span></span></label>        
+                </li>             
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <!-- Player -->
+    <section class="home_banner_area" style="min-height:100px;">
+      <div class="banner_inner">
+        <div class="container">         
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-md-8">
+              <div class="banner_content text-center">
+                <div class="text-box">    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </section>
+
+    <section class="title-cls"> 
+      <div class="container">         
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <div class="main_image">
+              <div class="embed-responsive embed-responsive-16by9 padding-around" id="videoWrapper">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HRLIEgwYSHc" 
+                  allowfullscreen="allowfullscreen" 
+                  mozallowfullscreen="mozallowfullscreen" 
+                  msallowfullscreen="msallowfullscreen" 
+                  oallowfullscreen="oallowfullscreen" 
+                  webkitallowfullscreen="webkitallowfullscreen">
+               </iframe>
+               </div>
+            </div>
+            <div class="content_wrapper">
+                <h4 class="title-mv">Belajar Django Framework
+                  <span style="float:right;text-align:right;font-size:12px;margin-top:10px;"><i>1 hari yang lalu</i></span>
+                </h4>
+                <div class="content" style="text-align:justify;">
+                  <p>Django adalah kerangka kerja web berbasis Python sumber terbuka dan 
+                  gratis yang mengikuti pola arsitektur model templat tampilan.</p>
+                  <br>
+                  <a href="download/django_book.pdf" target="blank">Download Materi Belajar Django <i class="fa fa-download"></i></a>
+                </div>
+                <div class="column text-right">
+                  <a href="#"><span class="tags" style="background:#39b2c7">Django</span></a>
+                  <a href="#"><span class="tags" style="background:#39b2c7">Framework</span></a>
+                </div>                    
+            </div>
+         </div>
+        </div>
+      </div>                         
+    </section>
+          
+            
+          
+        
+
+     <!-- Footer -->         
+      <footer class="footer-area">
+        <div class="container">
+          <div class="row footer-note">
+            <div class="col-md-12">
+              <p>©Secangkir Kode 2022<br>
+                  Kelas Lab dan Dokumentasi Code.<br>
+                   Secangkir Kode dari kami untuk kamu, iyah kamu</p>
+            </div>
+          </div>
+          <div class="row">            
+            <div class="col-lg-3 col-md-6">
+              <h4>Belajar</h4>
+               <ul>
+                 <li><a href="kelas.html">Kelas</a></li>
+                 <li><a href="lab.html">Lab</a></li>
+                 <li><a href="https://www.djangoproject.com/" target="_blank">Dokumentasi</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4>Kelas Developer</h4>
+               <ul>
+                  <li><a href="#frontend">Frontend Developer</a></li>
+                  <li><a href="#django">Backend Developer</a></li>
+                  <li><a href="#penetration">Full Stack Developer</a></li>                
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4>Lab Penetration Tester</h4>
+               <ul>
+                 <li><a href="#">SQL Injection</a></li>
+                 <li><a href="#">Cross Site Scripting</a></li>
+                 <li><a href="#">Cross Site Request Forgery</a></li>               
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4>Contact Us</h4>
+               <div class="icons">           
+                <ul class="ct-me">
+                  <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>                
+                  <li><a href="#" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+                  <li><a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>  
+                  <li><a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+                  <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>                              
+                </ul>    
+               </div>                  
+            </div>   
+          </div>                          
+      </footer>   
+     
+
+    <script src="js/jquery-3.3.1.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>      
+    <script>function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");}
+    </script>   
+    <script src="https://kit.fontawesome.com/1525a8495f.js" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
